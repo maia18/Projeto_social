@@ -3,11 +3,24 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body {
     width: 100vw;
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 4.5vh;
+    padding-top: 3vh;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
