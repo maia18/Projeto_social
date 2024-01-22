@@ -11,6 +11,11 @@ html, body {
     height: 100vh;
 }
 
+body {
+    background: black url('pacote-d013/pacote-d013/imagens/fundo-madeira.jpg') center no-repeat fixed;
+    background-size: cover;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -22,4 +27,41 @@ h1 {
 main {
     position: relative;
     height: 100vh;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 311px;
+    height: 627px;
+    background: url('pacote-d013/pacote-d013/imagens/frame-iphone.png') center no-repeat fixed;
+}
+
+iframe#home {
+    position: relative;
+    top: 80px;
+    left: 23px;
+    width: 265px;
+    height: 470px;
+}
+
+section#redes{
+    text-align: right;
+}
+
+section#redes img {
+    width: 60px;
+    margin: 8px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.507);
+    box-sizing: border-box;
+}
+
+section#redes img:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+    transform: translate(-2px, -2px);
+    transition: transform 0.5s;
 }
